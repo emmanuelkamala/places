@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './UsersItem.css';
 
 function UserItem() {
   return (
@@ -8,4 +9,4 @@ function UserItem() {
   )
 }
 
-export default UserItem
+export default UserItem;
