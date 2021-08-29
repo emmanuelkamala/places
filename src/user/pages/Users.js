@@ -1,11 +1,11 @@
 import React from 'react'
+import UsersList from '../components/UsersList';
 
 function Users() {
-  return (
-    <div>
-      <h1> Hi Angelina</h1>
-    </div>
-  )
+  const USERS = [
+    { id: 'u1', name: 'Emmanuel Joatham', image: 'https://ejoka.com/e.png', places: 3 }
+]
+  return <UsersList items={USERS} />
 }
 
 export default Users;
