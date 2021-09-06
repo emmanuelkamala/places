@@ -1,6 +1,6 @@
-import React from 'react'
+import React from 'react';
 import { Link } from 'react-router-dom';
-import MainHeader from './MainHeader'
+import MainHeader from './MainHeader';
 import './MainHeader.css';
 
 const MainNavigation = (props) => {
@@ -21,4 +21,4 @@ const MainNavigation = (props) => {
   )
 }
 
-export default MainNavigation
+export default MainNavigation;
