@@ -43,3 +43,10 @@
     display: block;
   }
 }
+
+@media (max-width: 269px) {
+  .main-navigation__title {
+    font-size: 1.2rem;
+  }
+  
+}

@@ -1,11 +1,11 @@
 import React from 'react';
 import './MainHeader.css';
 
-const MainHeader = (props) => {
+const MainHeader = props => {
   return (
-    <MainHeader className="MainHeader">
+    <header className="main-header">
       { props.children }
-    </MainHeader>
+    </header>
   )
 }
 
