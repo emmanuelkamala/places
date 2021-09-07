@@ -3,7 +3,7 @@ import Card from '../../shared/components/UIElements/Card';
 import './PlaceItem.css';
 
 const PlaceItem = (props) => {
-  return 
+  return (
     <li className="place-item">
       <Card className="place-item__content">
         <div className="place-item__image">
@@ -21,6 +21,7 @@ const PlaceItem = (props) => {
         </div>
       </Card>
     </li>
+  )
 }
 
 export default PlaceItem;

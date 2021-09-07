@@ -12,7 +12,7 @@ const PlaceList = (props) => {
       </Card>
     </div>
   }
-  return
+  return(
     <ul className="place-list">
       {
         props.items.map(place => <PlaceItem 
@@ -27,7 +27,7 @@ const PlaceList = (props) => {
         />)
       }
     </ul>
-  
+  )
 }
 
 export default PlaceList;
